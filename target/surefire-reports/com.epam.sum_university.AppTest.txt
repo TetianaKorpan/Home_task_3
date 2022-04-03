@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.sum_university.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.864 s <<< FAILURE! - in com.epam.sum_university.AppTest
+openMainPageTest(com.epam.sum_university.AppTest)  Time elapsed: 0.473 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:c1:7f2d:8fa2:2187%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.epam.sum_university.AppTest.openMainPageTest(AppTest.java:26)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.1.108:4444
+	at com.epam.sum_university.AppTest.openMainPageTest(AppTest.java:26)
+Caused by: java.net.ConnectException: Connection refused
+	at com.epam.sum_university.AppTest.openMainPageTest(AppTest.java:26)
+
+searchInputPlaceholderTest(com.epam.sum_university.AppTest)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:c1:7f2d:8fa2:2187%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.epam.sum_university.AppTest.searchInputPlaceholderTest(AppTest.java:43)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.1.108:4444
+	at com.epam.sum_university.AppTest.searchInputPlaceholderTest(AppTest.java:43)
+Caused by: java.net.ConnectException: Connection refused
+	at com.epam.sum_university.AppTest.searchInputPlaceholderTest(AppTest.java:43)
+
+subMenuTest(com.epam.sum_university.AppTest)  Time elapsed: 0.009 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:c1:7f2d:8fa2:2187%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.epam.sum_university.AppTest.subMenuTest(AppTest.java:62)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.1.108:4444
+	at com.epam.sum_university.AppTest.subMenuTest(AppTest.java:62)
+Caused by: java.net.ConnectException: Connection refused
+	at com.epam.sum_university.AppTest.subMenuTest(AppTest.java:62)
+
